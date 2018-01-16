@@ -1,6 +1,6 @@
 #安装必要的依赖
  yum remove mysql
- yum install gcc gcc-c++ ncurses-devel perl perl-Data-Dumper cmake bison zip -y
+ yum install gcc gcc-c++ ncurses-devel perl perl-Data-Dumper cmake bison zip unzip -y
  groupadd mysql
  useradd -r -g mysql mysql
  mkdir -p /usr/local/mysql
